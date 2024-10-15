@@ -22,6 +22,8 @@ method using the following steps:
   4. When a button is tapped, close the selection screen
   5. Show a snackbar on the home screen with the selection
 
+```dart
+
 ## 1. Define the home screen
 
 The home screen displays a button. When tapped,
@@ -84,7 +86,7 @@ class _SelectionButtonState extends State<SelectionButton> {
     );
   }
 }
-```
+```dart
 
 ## 3. Show the selection screen with two buttons
 
@@ -98,6 +100,8 @@ The next step adds code to return data.
 
 <?code-excerpt "lib/main_step2.dart (SelectionScreen)"?>
 ```dart
+
+
 class SelectionScreen extends StatelessWidget {
   const SelectionScreen({super.key});
 
@@ -313,8 +317,7 @@ class SelectionScreen extends StatelessWidget {
     );
   }
 }
-```
-
+```dart
 <noscript>
   <img src="/assets/images/docs/cookbook/returning-data.gif" alt="Returning data demo" class="site-mobile-screenshot" />
 </noscript>
